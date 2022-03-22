@@ -1,0 +1,47 @@
+/*Heading and navigation*/
+body {
+    margin: 0;
+    text-decoration: none;
+}
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav {
+    padding: 0px 10vw 0 10vw 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #AFC3CE;
+}
+
+
+h1 {
+    color: #2D4152;
+}
+
+nav header h1 {
+    color: #3E5768;
+    text-align: center;
+}
+
+nav section {
+    flex-wrap: wrap;
+}
+
+nav section a {
+    color: #3E5768;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0px 1vw 0px 1vw;
+    padding: 0px 5vw 0px 0vw;
+    width: 33vw;
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        height: 10vh;
+        flex-direction: row;
+    }
+}
