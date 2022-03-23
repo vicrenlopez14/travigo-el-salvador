@@ -123,8 +123,8 @@ main #images-area .left-side img {
 
     /* Links */
     header section {
-        flex-direction: row;
-        margin-top: 5px;
+        flex-direction: column;
+        margin-top: 1vh;
         justify-content: center;
     }
 
@@ -135,7 +135,7 @@ main #images-area .left-side img {
     header section a {
         width: auto;
         margin-right: 25px;
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
 
     header section a:hover {
@@ -144,5 +144,13 @@ main #images-area .left-side img {
     }
 
     /*  Greeting */
+    main #text-area h2 {
+        font-size: 5vw;
+    }
+
+    main #text-area p {
+        font-size: 3vw;
+    }
+
 
 }
