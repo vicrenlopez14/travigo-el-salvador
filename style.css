@@ -17,7 +17,7 @@ body {
 header {
     background: linear-gradient(200deg, #aec7d7, #ffffff);
     width: 100vw;
-    height: 100vh;
+    height: 250vh;
 }
 
 header nav h1 {
@@ -37,13 +37,7 @@ header nav h1 {
 
 hr {
     border: solid grey 0.2px;
-}
-
-#text-area {
-    border: solid black 1px;
-    padding: 30px;
-    height: 30vh;
-    width: 33vw;
+    padding: 0 25px 0 25px;
 }
 
 /* NavBar styling*/
@@ -75,81 +69,77 @@ nav section a:hover {
     font-size: 24pt;
 }
 
-
-#text-and-images-area {
+/* Greeting */
+main {
     display: flex;
     flex-direction: column;
+    padding: 0 25px 0 25px;
+
 }
 
-/* Main content area */
-
-@media screen and (min-width: 360px) {
-    nav section a {
-        font-size: 42pt;
-    }
-
-    #text-area {
-        margin: 5vw;
-        font-size: 36pt;
-    }
-
-    #images-area {
-        display: flex;
-        flex-direction: row;
-        margin: 5vw;
-    }
-
-    #images-area img {
-        padding-left: 1vw;
-        width: 50vw;
-    }
+/*--Text*/
+main #text-area {
+    padding: 0 2vw 0 2vw;
 }
 
-@media screen and (min-width: 1280px) {
-    /*Nav */
+main #text-area h2 {
+    font-size: 24pt;
+}
+
+main #text-area p {
+    font-size: 18pt;
+}
+
+/*--Images*/
+main #images-area {
+    display: flex;
+    flex-direction: row;
+}
+
+main #images-area .left-side {
+    height: 50vh;
+}
+
+main #images-area .right-side img {
+    height: 50vh;
+}
+
+main #images-area .left-side img {
+    height: 25vh;
+    width: 40vw;
+}
+
+@media screen and (min-width: 768px) {
     header {
-        padding: 0 20px 100px 20px;
+        padding: 20px;
+    }
+
+    /* Brading and nav bar*/
+    header nav {
+        flex-direction: row;
         justify-content: space-between;
+    }
+
+    /* Links */
+    header section {
+        flex-direction: row;
     }
 
     #travigo-logo {
         width: 10vw;
     }
 
-    nav {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    nav section {
-        flex-direction: row;
-    }
-
-    nav section a {
-        font-size: 16pt;
+    header section a {
         width: auto;
-        margin: 0 1vw 0 1vw;
+        margin-right: 25px;
+        font-size: 14pt;
     }
 
-    /*Text and images*/
-    #text-and-images-area {
-        flex-direction: row;
-    }
-
-    #text-area h2 {
-        font-size: 4vw;
-    }
-
-    #text-area p {
+    header section a:hover {
         font-size: 16pt;
+        transition-duration: 200ms;
     }
 
-    #images-area {
-        flex-direction: column;
-    }
+    /*  Greeting */
 
-    #images-area img {
-        margin-top: 10px;
-        width: auto;
-    }
 }
