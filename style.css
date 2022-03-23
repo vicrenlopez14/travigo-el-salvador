@@ -1,47 +1,100 @@
 /*Heading and navigation*/
-body {
-    margin: 0;
-    text-decoration: none;
+:root {
+    --primary-color: #AFC3CE;
+    --font-color: #2D4152;
 }
+
 
 * {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
+/* Header styling*/
+header {
+    background: linear-gradient(200deg, #aec7d7, #f1f2ed);
+    width: 100vw;
+    height: 100vh;
+}
+
+header nav h1 {
+    display: none;
+    margin-top: 0;
+    text-align: center;
+    color: var(--font-color);
+    font-size: 24pt;
+}
+
+#travigo-logo {
+    margin-top: 20px;
+    width: 50vw;
+    transition-duration: 500ms;
+    align-self: center;
+}
+
+#text-area {
+    border: solid black 1px;
+    padding: 5vw
+}
+
+/* NavBar styling*/
 nav {
-    padding: 0px 10vw 0 10vw 0px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    background-color: #AFC3CE;
 }
 
-
-h1 {
-    color: #2D4152;
-}
-
-nav header h1 {
-    color: #3E5768;
-    text-align: center;
-}
 
 nav section {
-    flex-wrap: wrap;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
 }
 
 nav section a {
-    color: #3E5768;
-    text-decoration: none;
+    width: 100vw;
+    text-align: center;
+    color: var(--font-color);
     font-weight: bold;
-    margin: 0px 1vw 0px 1vw;
-    padding: 0px 5vw 0px 0vw;
-    width: 33vw;
+    font-size: 18pt;
+    margin: 1vh 0 1vh 0;
+    text-decoration: none;
+
+    transition-duration: 500ms;
 }
 
-@media screen and (min-width: 768px) {
-    nav {
-        height: 10vh;
-        flex-direction: row;
+nav section a:hover {
+    cursor: pointer;
+    font-size: 24pt;
+}
+
+
+#text-and-images-area {
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width: 360px) {
+    nav section a {
+        font-size: 42pt;
     }
+
+    #text-area {
+        margin: 5vw;
+        font-size: 36pt;
+    }
+
+    #images-area {
+        display: flex;
+        flex-direction: row;
+        margin: 5vw;
+    }
+
+    #images-area img {
+        padding-left: 1vw;
+        width: 50vw;
+    }
+
+
 }
