@@ -37,7 +37,9 @@ header nav h1 {
 
 #text-area {
     border: solid black 1px;
-    padding: 5vw
+    padding: 30px;
+    height: 30vh;
+    width: 33vw;
 }
 
 /* NavBar styling*/
@@ -45,7 +47,6 @@ nav {
     display: flex;
     flex-direction: column;
 }
-
 
 nav section {
     margin-top: 3vh;
@@ -75,6 +76,9 @@ nav section a:hover {
     display: flex;
     flex-direction: column;
 }
+
+/* Main content area */
+
 @media screen and (min-width: 360px) {
     nav section a {
         font-size: 42pt;
@@ -95,6 +99,53 @@ nav section a:hover {
         padding-left: 1vw;
         width: 50vw;
     }
+}
 
+@media screen and (min-width: 766px) {
+    /*Nav */
+    header {
+        padding: 0 20px 100px 20px;
+        justify-content: space-between;
+    }
 
+    #travigo-logo {
+        width: 10vw;
+    }
+
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav section {
+        flex-direction: row;
+    }
+
+    nav section a {
+        font-size: 16pt;
+        width: auto;
+        margin: 0 1vw 0 1vw;
+    }
+
+    /*Text and images*/
+    #text-and-images-area {
+        flex-direction: row;
+    }
+
+    #text-area h2 {
+        font-size: 2vw;
+    }
+
+    #text-area p {
+        font-size: 16pt;
+    }
+
+    #images-area {
+        flex-direction: column;
+    }
+
+    #images-area img {
+        margin-top: 10px;
+        width: auto;
+    }
 }
