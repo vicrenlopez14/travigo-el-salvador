@@ -1,58 +1,7 @@
-/*Heading and navigation*/
-/* Header styling*/
 header {
     background: linear-gradient(200deg, #aec7d7, #ffffff);
     width: 100vw;
     height: 130vh;
-}
-
-header nav h1 {
-    display: none;
-    margin-top: 0;
-    text-align: center;
-    color: var(--font-color);
-    font-size: 5vw;
-}
-
-#travigo-logo {
-    margin-top: 20px;
-    width: 50vw;
-    transition-duration: 500ms;
-    align-self: center;
-}
-
-hr {
-    border: solid grey 0.2px;
-    padding: 0 25px 0 25px;
-}
-
-/* NavBar styling*/
-nav {
-    display: flex;
-    flex-direction: column;
-}
-
-nav section {
-    margin-top: 3vh;
-    display: flex;
-    flex-direction: column;
-}
-
-nav section a {
-    width: 100vw;
-    text-align: center;
-    color: var(--font-color);
-    font-weight: bold;
-    font-size: var(--subtitles);
-    margin: 1vh 0 1vh 0;
-    text-decoration: none;
-
-    transition-duration: 500ms;
-}
-
-nav section a:hover {
-    cursor: pointer;
-    font-size: var(--subtitles) +2;
 }
 
 /* Greeting */

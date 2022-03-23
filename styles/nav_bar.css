@@ -1,0 +1,121 @@
+/*Heading and navigation*/
+/* Header styling*/
+
+
+header {
+    background-color: #222222;
+    height: 5vh;
+}
+
+header nav h1 {
+    display: none;
+    margin-top: 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 5vw;
+}
+
+#travigo-logo {
+    width: 50vw;
+    transition-duration: 500ms;
+    align-self: center;
+}
+
+/* NavBar styling*/
+nav {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+nav section {
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav section a {
+    width: 100vw;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: var(--subtitles);
+    margin: 1vh 0 1vh 0;
+    text-decoration: none;
+
+    transition-duration: 500ms;
+}
+
+nav section a:hover {
+    cursor: pointer;
+    font-size: var(--subtitles) +2;
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    padding: 5px;
+}
+
+
+@media (min-width: 768px) {
+    header {
+        padding: 20px;
+    }
+
+    /* Brading and nav bar*/
+    header nav {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /* Links */
+    header section {
+        flex-direction: column;
+        margin-top: 1vh;
+        justify-content: center;
+    }
+
+    #travigo-logo {
+        width: 50vw;
+    }
+
+    header section a {
+        width: auto;
+        margin-right: 25px;
+        font-size: 4vw;
+    }
+
+    header section a:hover {
+        font-size: 5vw;
+        transition-duration: 200ms;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    /*Header*/
+    header nav {
+        flex-direction: row;
+    }
+
+    header nav section {
+        flex-direction: row;
+        align-content: baseline;
+    }
+
+    #travigo-logo {
+        align-self: center;
+        width: 10vw;
+    }
+
+    header nav section {
+        margin-bottom: 10px;
+    }
+
+    header nav section a {
+        font-size: var(--subtitles);
+        align-self: center;
+    }
+
+    header nav section a:hover {
+        font-size: 1.5vw;
+    }
+}
