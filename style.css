@@ -110,6 +110,36 @@ main #images-area .left-side img {
     width: 40vw;
 }
 
+/*Footer*/
+
+/*Footer*/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 5vh;
+    padding: 1vw 1vw;
+    background-color: var(--font-color);
+    height: 10vh;
+}
+
+footer div {
+    align-self: center;
+}
+
+footer div a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5vw;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+footer div strong {
+    color: #ffffff;
+}
+
 @media (min-width: 768px) {
     header {
         padding: 20px;
@@ -172,35 +202,17 @@ main #images-area .left-side img {
         height: 15vh;
         width: 40vw;
     }
+
+    /*Footer*/
+    footer {
+        flex-direction: column;
+    }
+
+    footer div a, footer div strong{
+        font-size: 5vw;
+    }
 }
 
 @media (min-width: 1200px) {
 
-    /*Footer*/
-    footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-content: center;
-        margin-top: 5vh;
-        padding: 1vw 1vw;
-        background-color: var(--font-color);
-        height: 10vh;
-    }
-
-    footer div {
-        align-self: center;
-    }
-
-    footer div a {
-        color: #ffffff;
-        text-decoration: none;
-        font-size: 1.5vw;
-        cursor: pointer;
-        transition-duration: 500ms;
-    }
-
-    footer div strong {
-        color: #ffffff;
-    }
 }
