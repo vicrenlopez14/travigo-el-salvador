@@ -182,9 +182,14 @@ main #images-area .left-side img {
         flex-direction: row;
         justify-content: space-between;
         align-content: center;
+        margin-top: 5vh;
         padding: 1vw 1vw;
         background-color: var(--font-color);
-        height: 15vh;
+        height: 10vh;
+    }
+
+    footer div {
+        align-self: center;
     }
 
     footer div a {
@@ -192,5 +197,10 @@ main #images-area .left-side img {
         text-decoration: none;
         font-size: 1.5vw;
         cursor: pointer;
+        transition-duration: 500ms;
+    }
+
+    footer div strong {
+        color: #ffffff;
     }
 }
