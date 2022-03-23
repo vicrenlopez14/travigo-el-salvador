@@ -1,0 +1,16 @@
+:root {
+    --primary-color: #AFC3CE;
+    --font-color: #2D4152;
+    --titles: 24pt;
+    --subtitles: 18;
+    --body: 12pt;
+}
+
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    margin: 0;
+}
