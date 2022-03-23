@@ -15,7 +15,7 @@ body {
 
 /* Header styling*/
 header {
-    background: linear-gradient(200deg, #aec7d7, #f1f2ed);
+    background: linear-gradient(200deg, #aec7d7, #ffffff);
     width: 100vw;
     height: 100vh;
 }
@@ -33,6 +33,10 @@ header nav h1 {
     width: 50vw;
     transition-duration: 500ms;
     align-self: center;
+}
+
+hr {
+    border: solid grey 0.2px;
 }
 
 #text-area {
@@ -101,7 +105,7 @@ nav section a:hover {
     }
 }
 
-@media screen and (min-width: 766px) {
+@media screen and (min-width: 1280px) {
     /*Nav */
     header {
         padding: 0 20px 100px 20px;
@@ -133,7 +137,7 @@ nav section a:hover {
     }
 
     #text-area h2 {
-        font-size: 2vw;
+        font-size: 4vw;
     }
 
     #text-area p {
