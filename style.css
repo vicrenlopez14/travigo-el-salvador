@@ -210,11 +210,94 @@ footer div strong {
         flex-direction: column;
     }
 
-    footer div a, footer div strong{
+    footer div a, footer div strong {
         font-size: 5vw;
     }
 }
 
 @media (min-width: 1200px) {
+    /*Header*/
+    header nav {
+        flex-direction: row;
+    }
 
+    header nav section {
+        flex-direction: row;
+        align-content: baseline;
+    }
+
+    #travigo-logo {
+        align-self: center;
+        width: 10vw;
+    }
+
+    header nav section {
+        margin-bottom: 10px;
+    }
+
+    header nav section a {
+        font-size: 1.2vw;
+        align-self: center;
+    }
+
+    header nav section a:hover {
+        font-size: 1.5vw;
+    }
+
+    /* Greeting */
+    main {
+        display: flex;
+        flex-direction: row;
+        padding: 0 25px 0 25px;
+
+    }
+
+    /*--Text*/
+    main #text-area {
+        padding: 0 2vw 0 2vw;
+    }
+
+    main #text-area h2 {
+        font-size: 4vw;
+    }
+
+    main #text-area p {
+        font-size: 1.5vw;
+    }
+
+    /*--Images*/
+    main #images-area {
+        display: flex;
+        flex-direction: row;
+        width: 60vw;
+        height: 100vh;
+    }
+
+    #images-area img {
+        padding: 10px;
+    }
+
+    main #images-area .left-side {
+        height: 80vh;
+    }
+
+    main #images-area .right-side img {
+        height: 50vh;
+        width: 20vw;
+    }
+
+    main #images-area .left-side img {
+        height: 35vh;
+        width: auto;
+    }
+
+    /*Footer*/
+    footer {
+        width: 100vw;
+        flex-direction: row;
+    }
+
+    footer div a, footer div strong {
+        font-size: 1vw;
+    }
 }
