@@ -110,7 +110,80 @@ main #images-area .left-side img {
     width: 40vw;
 }
 
-/*Footer*/
+/*Content - POPULARES*/
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+aside div h2 {
+    font-size: 8vw;
+    text-align: center;
+}
+
+aside div div {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+aside div .popular {
+    font-size: 4vw;
+    cursor: pointer;
+    margin: 1vh 0 1vh 0;
+}
+
+aside div .popular:hover img {
+    width: 95vw;
+}
+
+aside div .popular img {
+    width: 90vw;
+    align-self: center;
+    border-radius: 50px;
+    transition-duration: 500ms;
+}
+
+aside div .popular h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*Content - TEMPORADA*/
+.temporada {
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.temporada h2 {
+    margin: 2vh 0 0vh 0;
+}
+
+.temporada p {
+    text-align: center;
+    margin: 0 0 3vw 0;
+    font-size: 4vw;
+}
+
+.temporada img {
+    align-self: center;
+    width: 90vw;
+    height: auto;
+}
+
+button {
+    align-self: center;
+    height: 5vh;
+    width: 50vw;
+    font-size: 5vw;
+    background-color: var(--font-color);
+    color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+}
 
 /*Footer*/
 footer {
