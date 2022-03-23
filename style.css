@@ -113,6 +113,7 @@ main #images-area .left-side img {
 @media (min-width: 768px) {
     header {
         padding: 20px;
+        height: 100vh;
     }
 
     /* Brading and nav bar*/
@@ -135,21 +136,41 @@ main #images-area .left-side img {
     header section a {
         width: auto;
         margin-right: 25px;
-        font-size: 2.5vw;
+        font-size: 4vw;
     }
 
     header section a:hover {
-        font-size: 16pt;
+        font-size: 5vw;
         transition-duration: 200ms;
     }
 
     /*  Greeting */
     main #text-area h2 {
-        font-size: 5vw;
+        font-size: 7vw;
     }
 
     main #text-area p {
-        font-size: 3vw;
+        font-size: 5vw;
+    }
+
+    /*--Images*/
+    main #images-area {
+        display: flex;
+        flex-direction: row;
+    }
+
+    main #images-area .left-side {
+        height: 30vh;
+    }
+
+    main #images-area .right-side img {
+        height: 30vh;
+        width: 50vw;
+    }
+
+    main #images-area .left-side img {
+        height: 15vh;
+        width: 40vw;
     }
 
 
