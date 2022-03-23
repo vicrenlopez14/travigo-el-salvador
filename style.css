@@ -174,4 +174,23 @@ main #images-area .left-side img {
     }
 }
 
-/*Footer*/
+@media (min-width: 1200px) {
+
+    /*Footer*/
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        padding: 1vw 1vw;
+        background-color: var(--font-color);
+        height: 15vh;
+    }
+
+    footer div a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 1.5vw;
+        cursor: pointer;
+    }
+}
