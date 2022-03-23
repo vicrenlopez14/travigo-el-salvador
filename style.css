@@ -122,6 +122,7 @@ footer {
     padding: 1vw 1vw;
     background-color: var(--font-color);
     height: 10vh;
+    width: 100vw;
 }
 
 footer div {
@@ -205,6 +206,7 @@ footer div strong {
 
     /*Footer*/
     footer {
+        width: 100vw;
         flex-direction: column;
     }
 
