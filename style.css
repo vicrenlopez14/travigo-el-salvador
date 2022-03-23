@@ -57,7 +57,7 @@ nav section a {
     text-align: center;
     color: var(--font-color);
     font-weight: bold;
-    font-size: 100vw;
+    font-size: 5vw;
     margin: 1vh 0 1vh 0;
     text-decoration: none;
 
@@ -117,13 +117,15 @@ main #images-area .left-side img {
 
     /* Brading and nav bar*/
     header nav {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
     }
 
     /* Links */
     header section {
         flex-direction: row;
+        margin-top: 5px;
+        justify-content: center;
     }
 
     #travigo-logo {
@@ -133,7 +135,7 @@ main #images-area .left-side img {
     header section a {
         width: auto;
         margin-right: 25px;
-        font-size: 14pt;
+        font-size: 2vw;
     }
 
     header section a:hover {
