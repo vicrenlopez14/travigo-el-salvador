@@ -1,0 +1,110 @@
+main {
+}
+
+/*Video*/
+
+/*Greeting */
+main section {
+    height: 70vh;
+}
+
+#background-video {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.video-wrapper {
+    position: relative;
+    z-index: 0;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    color: white;
+    padding: 0 0 0 5vw;
+}
+
+article .left-side, article .right-side {
+    flex-basis: 50vw;
+}
+
+article .left-side {
+    padding: 20px 10vw 0 20px;
+    width: 30vw;
+}
+
+article h1 {
+    margin: 15vh 0 0 0;
+    font-size: var(--titles);
+}
+
+article p {
+    margin: 0;
+    font-size: var(--body);
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+}
+
+.right-side img {
+    border-radius: 10px;
+    justify-self: center;
+}
+
+.redes-sociales {
+    padding: 10px;
+    border-radius: 10px;
+    align-self: center;
+    width: 50%;
+    background-color: var(--primary-color);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales img:hover {
+    cursor: pointer;
+}
+
+/* Content */
+aside {
+    padding: 0 5vw 2vw 5vw;
+}
+
+.departamentos-list {
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+
+}
+
+.departamento {
+    padding: 10px;
+    transition-duration: 500ms;
+    border-radius: 10px
+}
+
+.departamento h4 {
+    margin: 0;
+    text-align: center;
+    font-size: var(--subtitles);
+}
+
+.departamento:hover {
+    background-color: rgba(215, 215, 215, 0.84);
+    cursor: pointer;
+}

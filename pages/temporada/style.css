@@ -69,19 +69,6 @@ article section {
     cursor: pointer;
 }
 
-/*Inits*/
-.links-area button:nth-child(1) {
-    margin-left: 15px;
-}
-
-.links-area button:nth-child(2) {
-    margin-left: 10px;
-}
-
-.links-area button:nth-child(3) {
-    margin-left: 5px;
-}
-
 /*Hovers*/
 .links-area button:nth-child(1):hover {
     margin-left: 50px;
