@@ -20,7 +20,7 @@ main section h1 {
     flex-direction: row;
     width: 70vw;
     padding: 15px;
-    margin-bottom:   5vh;
+    margin-bottom: 5vh;
     transition-duration: 500ms;
 }
 
@@ -54,7 +54,7 @@ main section h1 {
 
 .tile:hover {
     cursor: pointer;
-    background-color: rgba(215,215,215,0.84);
+    background-color: rgba(215, 215, 215, 0.84);
 }
 
 .tile img {
@@ -73,4 +73,19 @@ main section h1 {
 /*Ads*/
 main aside div img:hover {
     cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .tile {
+        width: 70vw;
+    }
+
+    .tile img {
+        height: auto;
+        width: 70vw;
+    }
 }
