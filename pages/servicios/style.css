@@ -101,3 +101,22 @@
     width: 20vh;
     border-radius: 10px;
 }
+
+@media (max-width: 1200px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .side-article {
+        width: 100%;
+    }
+
+    .articles-list {
+        width: 100%;
+    }
+
+    .articles-list article {
+        width: 100%;
+    }
+
+}
