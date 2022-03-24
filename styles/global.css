@@ -4,9 +4,9 @@
     --font-color: #2D4152;
     --titles: 24pt;
     --subtitles: 18;
+    --subtitles-plus-two: 15;
     --body: 12pt;
 }
-
 
 * {
     font-family: 'Source Sans Pro', sans-serif;

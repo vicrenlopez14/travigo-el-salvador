@@ -42,17 +42,17 @@ nav section a {
     font-size: var(--subtitles);
     margin: 1vh 0 1vh 0;
     text-decoration: none;
+    padding: 10px;
 
-    transition-duration: 500ms;
+    border-radius: 10px;
+    transition-duration: 300ms;
 }
 
 nav section a:hover {
     cursor: pointer;
-    font-size: var(--subtitles) +2;
-    background-color: var(--primary-color);
-    padding: 5px;
+    font-size: var(--subtitles-plus-two);
+    background-color: var(--primary-variant-color);
 }
-
 
 @media (min-width: 768px) {
     header {
@@ -81,11 +81,6 @@ nav section a:hover {
         margin-right: 25px;
         font-size: 4vw;
     }
-
-    header section a:hover {
-        font-size: 5vw;
-        transition-duration: 200ms;
-    }
 }
 
 
@@ -112,9 +107,5 @@ nav section a:hover {
     header nav section a {
         font-size: var(--subtitles);
         align-self: center;
-    }
-
-    header nav section a:hover {
-        font-size: 1.5vw;
     }
 }
