@@ -1,6 +1,6 @@
 header {
     background: linear-gradient(200deg, #aec7d7, #ffffff);
-    width: 100vw;
+    width: 100%;
     height: 130vh;
 }
 
@@ -49,7 +49,7 @@ main #images-area .left-side img {
 aside {
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
 }
 
 aside div h2 {
@@ -58,7 +58,7 @@ aside div h2 {
 }
 
 aside div div {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -91,6 +91,7 @@ aside div .popular h3 {
     margin-top: 4vh;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .temporada h2 {
@@ -105,7 +106,7 @@ aside div .popular h3 {
 
 .temporada img {
     align-self: center;
-    width: 90vw;
+    width: 100%;
     height: auto;
 }
 
@@ -122,38 +123,11 @@ button {
 
 
 @media (min-width: 768px) {
-    header {
-        padding: 20px;
-        height: 100vh;
-    }
-
     /* Brading and nav bar*/
-    header nav {
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    /* Links */
-    header section {
-        flex-direction: column;
-        margin-top: 1vh;
-        justify-content: center;
-    }
-
     #travigo-logo {
         width: 50vw;
     }
 
-    header section a {
-        width: auto;
-        margin-right: 25px;
-        font-size: 4vw;
-    }
-
-    header section a:hover {
-        font-size: 5vw;
-        transition-duration: 200ms;
-    }
 
     /*  Greeting */
     main #text-area h2 {
@@ -318,7 +292,7 @@ button {
     /*Content - TEMPORADA*/
     .temporada {
         margin-top: 20vh;
-        width: 100vw;
+        width: 100%;
         flex-direction: column;
     }
 
@@ -327,7 +301,7 @@ button {
     }
 
     .temporada h2 {
-        margin: 2vh 0 0vh 0;
+        margin: 2vh 0 0 0;
         font-size: var(--titles);
     }
 

@@ -8,7 +8,6 @@ footer {
     padding: 1vw 1vw;
     background-color: #222222;
     height: 10vh;
-    width: 100vw;
 }
 
 footer div {
@@ -30,7 +29,6 @@ footer div strong {
 @media (min-width: 768px) {
     /*Footer*/
     footer {
-        width: 100vw;
         flex-direction: column;
     }
 
@@ -42,7 +40,6 @@ footer div strong {
 @media (min-width: 1200px) {
     /*Footer*/
     footer {
-        width: 100vw;
         flex-direction: row;
     }
 
