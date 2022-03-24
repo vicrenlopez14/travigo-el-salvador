@@ -1,0 +1,102 @@
+/*Page title*/
+
+.info {
+    margin-top: 10vh;
+    width: 100%;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: var(--titles);
+    margin: 0;
+}
+
+.info a {
+    text-decoration: none;
+}
+
+.info a img {
+    transition-duration: 300ms;
+    width: 35px;
+}
+
+.info a img:hover {
+    width: 40px;
+    cursor: pointer;
+}
+
+/* Content */
+.content {
+    display: flex;
+    flex-direction: row;
+    margin: 10vh 5vw 10vh 5vw;
+
+}
+
+/*Side article*/
+.side-article {
+    border-radius: 15px;
+    padding: 10px;
+    width: 60vw;
+    margin-right: 10vw;
+}
+
+.side-article:hover {
+    background-color: rgba(138, 138, 138, 0.35);
+    cursor: pointer;
+}
+
+.side-article img {
+    border-radius: 10px;
+}
+
+
+.side-article h1 {
+    font-size: var(--titles);
+    margin: 10px 0 0 0;
+}
+
+.side-article p {
+    font-size: var(--body);
+}
+
+/*Articles list*/
+.articles-list article {
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    margin: 1vh 0 1vh 0;
+    width: 40vw;
+    transition-duration: 500ms;
+}
+
+.articles-list article:hover {
+    background-color: rgba(138, 138, 138, 0.35);
+    cursor: pointer;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 1vw;
+}
+
+.text-area h1 {
+    font-size: var(--subtitles);
+    font-weight: 800;
+    margin: 0;
+}
+
+.text-area p {
+    margin-top: 5px;
+    font-size: var(--body);
+}
+
+.articles-list article div img {
+    aspect-ratio: 3/2;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 10px;
+}

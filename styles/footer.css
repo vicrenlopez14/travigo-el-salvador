@@ -1,0 +1,52 @@
+/*Footer*/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 5vh;
+    padding: 1vw 1vw;
+    background-color: #222222;
+    height: 10vh;
+    width: 100vw;
+}
+
+footer div {
+    align-self: center;
+}
+
+footer div a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5vw;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+footer div strong {
+    color: #ffffff;
+}
+
+@media (min-width: 768px) {
+    /*Footer*/
+    footer {
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    footer div a, footer div strong {
+        font-size: 5vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    /*Footer*/
+    footer {
+        width: 100vw;
+        flex-direction: row;
+    }
+
+    footer div a, footer div strong {
+        font-size: var(--body);
+    }
+}
