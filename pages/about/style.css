@@ -1,0 +1,38 @@
+/* Travigo logo */
+.logo-section {
+    padding: 5vw 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo-section img {
+    width: 20vw;
+    text-align: center;
+}
+
+
+/*Main and text*/
+
+main {
+    margin: 5vw;
+}
+
+hr {
+    width: 20vw;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+}
+
+article img {
+    flex-basis: 10vw;
+    width: 5vw;
+}
+
+article p {
+    margin-left: 2vw;
+    text-align: justify;
+}
