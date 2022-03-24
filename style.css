@@ -50,7 +50,6 @@ main #images-area .left-side img {
 aside {
     display: flex;
     flex-direction: column;
-    width: 100%;
 }
 
 aside div h2 {
@@ -86,12 +85,12 @@ aside div .popular h3 {
     font-weight: bold;
 }
 
-
 /*Content - TEMPORADA*/
 .temporada {
     margin-top: 4vh;
     display: flex;
     flex-direction: column;
+    justify-content: start;
     width: 100%;
 }
 
@@ -198,7 +197,6 @@ button a {
         display: flex;
         flex-direction: row;
         padding: 0 25px 0 25px;
-
     }
 
     /*--Text*/
@@ -295,8 +293,10 @@ button a {
 
     /*Content - TEMPORADA*/
     .temporada {
+        /*background-color: #2871CC;*/
         margin-top: 20vh;
-        width: 100%;
+        width: 50%;
+        justify-content: start;
         flex-direction: column;
     }
 
@@ -317,8 +317,7 @@ button a {
 
     .temporada img {
         align-self: center;
-        width: 30vw;
-        height: auto;
+        width: 20vw;
     }
 
     button {
@@ -330,6 +329,4 @@ button a {
         border-radius: 10px;
         cursor: pointer;
     }
-
-
 }
