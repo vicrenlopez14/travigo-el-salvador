@@ -96,7 +96,7 @@ aside div .popular h3 {
 }
 
 .temporada h2 {
-    margin: 2vh 0 0vh 0;
+    margin: 2vh 0 0 0;
 }
 
 .temporada p {
@@ -122,11 +122,17 @@ button {
     cursor: pointer;
 }
 
+button a {
+    text-decoration: none;
+    color: white;
+}
+
 
 @media (min-width: 768px) {
     /* Brading and nav bar*/
     #travigo-logo {
         width: 50vw;
+        justify-self: center;
     }
 
 

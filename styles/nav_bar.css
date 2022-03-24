@@ -65,6 +65,12 @@ nav section a:hover {
         justify-content: space-between;
     }
 
+    header nav > a {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
     /* Links */
     header section {
         flex-direction: column;
@@ -75,6 +81,7 @@ nav section a:hover {
     #travigo-logo {
         width: 50vw;
     }
+
 
     header section a {
         width: auto;
