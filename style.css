@@ -50,6 +50,7 @@ main #images-area .left-side img {
 aside {
     display: flex;
     flex-direction: column;
+    justify-content: start;
 }
 
 aside div h2 {
