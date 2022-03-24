@@ -1,0 +1,76 @@
+main {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+main section h1 {
+    font-size: var(--titles);
+    margin: 0;
+}
+
+
+/*Tiles*/
+
+/*Main tile*/
+.main-tile {
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    padding: 15px;
+    margin-bottom:   5vh;
+    transition-duration: 500ms;
+}
+
+
+.main-tile img {
+    height: auto;
+    width: 25vw;
+    border-radius: 10px;
+}
+
+.main-tile .text-area {
+    margin-left: 30px;
+    width: 30vw;
+}
+
+/*Common tiles*/
+.content {
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tile {
+    margin: 5px;
+    padding: 15px;
+    width: 20vw;
+    border-radius: 10px;
+    transition-duration: 500ms;
+}
+
+.tile:hover {
+    cursor: pointer;
+    background-color: rgba(215,215,215,0.84);
+}
+
+.tile img {
+    width: 20vw;
+    border-radius: 10px;
+}
+
+.tile h3 {
+    font-size: var(--subtitles);
+}
+
+.tile p {
+    font-size: var(--body);
+}
+
+/*Ads*/
+main aside div img:hover {
+    cursor: pointer;
+}
