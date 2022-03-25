@@ -37,7 +37,7 @@ footer div strong {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     /*Footer*/
     footer {
         flex-direction: row;

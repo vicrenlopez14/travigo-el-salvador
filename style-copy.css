@@ -127,6 +127,7 @@ button a {
     color: white;
 }
 
+
 @media (min-width: 768px) {
     /* Brading and nav bar*/
     #travigo-logo {
@@ -134,19 +135,6 @@ button a {
         justify-self: center;
     }
 
-    header nav a {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    header {
-        height: 115vh;
-    }
-
-    header nav section a {
-        font-size: 5vw;
-    }
 
     /*  Greeting */
     main #text-area h2 {
@@ -179,14 +167,10 @@ button a {
 
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     /*Header*/
     header nav {
         flex-direction: row;
-    }
-
-    header {
-        height: 90vh;
     }
 
     header nav section {
@@ -216,10 +200,6 @@ button a {
         padding: 0 25px 0 25px;
     }
 
-    main div {
-        flex-basis: 50vw;
-    }
-
     /*--Text*/
     main #text-area {
         padding: 0 2vw 0 2vw;
@@ -232,7 +212,6 @@ button a {
     main #text-area p {
         font-size: 1.5vw;
     }
-
 
     /*--Images*/
     main #images-area {
@@ -265,8 +244,9 @@ button a {
         flex-direction: row;
     }
 
+
     aside div {
-        width: 33vw;
+        width: 60vw;
     }
 
     aside div h2 {
@@ -313,14 +293,9 @@ button a {
 
 
     /*Content - TEMPORADA*/
-
-    #positioner {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
     .temporada {
-        margin-top: 8vh;
+        /*background-color: #2871CC;*/
+        margin-top: 20vh;
         width: 50%;
         justify-content: start;
         flex-direction: column;

@@ -57,7 +57,7 @@ nav section a:hover {
 @media (min-width: 768px) {
     header {
         padding: 20px;
-        height: 60vh;
+        height: 65vh;
     }
 
     /* Brading and nav bar*/
@@ -83,7 +83,6 @@ nav section a:hover {
         width: 50vw;
     }
 
-
     header section a {
         width: auto;
         margin-right: 25px;
@@ -92,7 +91,7 @@ nav section a:hover {
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
     header {
         height: 5vh;
     }
