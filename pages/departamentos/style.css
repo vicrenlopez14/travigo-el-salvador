@@ -109,6 +109,54 @@ aside {
     cursor: pointer;
 }
 
+/* Mobile */
+.right-side {
+    visibility: hidden;
+}
+
+.departamentos-list {
+    flex-direction: column;
+}
+
+main aside h3 {
+    font-size: 5vw;
+    text-align: center;
+}
+
+.departamento {
+    margin: 15px 0 15px 0;
+}
+
+.departamento div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.departamento img {
+    text-align: center;
+    justify-content: center;
+    width: 80vw;
+    height: 20vh;
+    margin-bottom: 10px;
+}
+
+article {
+    justify-content: center;
+}
+
+.departamento h4 {
+    font-size: 3vw;
+}
+
+.left-side {
+    width: 100vw;
+}
+
+.right-side {
+    width: 1px;
+}
+
 @media (min-width: 768px) {
     .right-side {
         visibility: hidden;

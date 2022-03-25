@@ -34,6 +34,7 @@ nav section {
     flex-direction: column;
 }
 
+
 nav section a {
     width: 100vw;
     text-align: center;
@@ -52,6 +53,42 @@ nav section a:hover {
     cursor: pointer;
     font-size: var(--subtitles-plus-two);
     background-color: var(--primary-variant-color);
+}
+
+
+/*Mobile*/
+header {
+    padding: 20px;
+    height: 45vh;
+}
+
+/* Brading and nav bar*/
+header nav {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header nav > a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Links */
+header section {
+    flex-direction: column;
+    margin-top: 1vh;
+    justify-content: center;
+}
+
+#travigo-logo {
+    width: 50vw;
+}
+
+header section a {
+    width: auto;
+    margin-right: 25px;
+    font-size: 4vw;
 }
 
 @media (min-width: 768px) {
