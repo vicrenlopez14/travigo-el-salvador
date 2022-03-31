@@ -4,7 +4,10 @@
 
 ¡Descubre los mejores sitios turísticos en El Salvador!
 
-[Accede dando clic aquí](https://travigo.vicrenlopez.com)
+
+## Recursos
+- [Accede dando clic aquí](https://travigo.vicrenlopez.com)
+- [Pasos para subir el sitio a Github Pages](./src/servidor-gratuito.pdf)
 ---
 
 ### ¿En qué consiste Travigo?
