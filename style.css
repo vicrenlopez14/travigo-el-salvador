@@ -270,6 +270,7 @@ button a {
     }
 
     main #images-area .right-side img {
+        visibility: hidden;
         height: 50vh;
         width: 12vw;
     }
@@ -332,12 +333,12 @@ button a {
 
 
     /*Content - TEMPORADA*/
-
     #positioner {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
+
     .temporada {
         margin-top: 8vh;
         width: 50%;
@@ -376,7 +377,21 @@ button a {
         transition-duration: 300ms;
         border: none;
     }
+
     button:hover {
         background-color: var(--primary-variant-color);
     }
 }
+
+@media (max-width: 1215px) {
+    main #images-area .right-side img {
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 1216px) {
+    main #images-area .right-side img {
+        visibility: visible;
+    }
+}
+
