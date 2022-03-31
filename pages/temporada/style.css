@@ -29,6 +29,7 @@ article {
     position: relative;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -42,18 +43,19 @@ article section {
 }
 
 .text-area h2 {
-    font-size: 32pt;
+    font-size: 48pt;
 }
 
 .text-area p {
-    font-size: 18pt;
+    font-size: 24pt;
 }
+
 
 /*Links area*/
 .links-area {
     display: flex;
     flex-direction: column;
-    margin-top: 40vh;
+    padding-left: 10vw;
     align-self: center;
 }
 
@@ -62,9 +64,9 @@ article section {
     border: none;
     color: white;
     background-color: var(--primary-color);
-    height: 5vh;
-    width: 30vw;
-    font-size: var(--body);
+    height: 50px;
+    width: 300px;
+    font-size: 24pt;
     transition-duration: 300ms;
     cursor: pointer;
 }
@@ -128,6 +130,10 @@ footer {
         font-size: 1vw;
     }
 
+    article {
+        flex-wrap: nowrap;
+
+    }
     .links-area button {
         margin: 5px 0;
         border: none;
