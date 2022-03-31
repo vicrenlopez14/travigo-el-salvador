@@ -1,6 +1,6 @@
 /*Main text with image*/
 main {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: url("./background.png");
     background-size: cover;

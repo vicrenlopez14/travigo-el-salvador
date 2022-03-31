@@ -10,7 +10,6 @@ main {
     display: flex;
     flex-direction: column;
     padding: 0 25px 0 25px;
-
 }
 
 /*--Text*/
@@ -178,6 +177,7 @@ button a {
     }
 
 }
+
 
 @media (min-width: 992px) {
     /*Header*/
