@@ -387,6 +387,10 @@ button a {
     main #images-area .right-side img {
         visibility: hidden;
     }
+
+    main #images-area .right-side {
+        width: 0;
+    }
 }
 
 @media (min-width: 1216px) {
@@ -394,4 +398,3 @@ button a {
         visibility: visible;
     }
 }
-
