@@ -28,6 +28,7 @@ main section h1 {
 .main-tile img {
     height: auto;
     width: 25vw;
+    height: 25vh;
     border-radius: 10px;
 }
 
@@ -40,14 +41,14 @@ main section h1 {
 .content {
     width: 70vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
 .tile {
     margin: 5px;
     padding: 15px;
-    width: 20vw;
+    width: 60vw;
     border-radius: 10px;
     transition-duration: 500ms;
 }
@@ -58,7 +59,8 @@ main section h1 {
 }
 
 .tile img {
-    width: 20vw;
+    width: 60vw;
+    height: 20vh;
     border-radius: 10px;
 }
 
@@ -76,7 +78,6 @@ main aside div img:hover {
 }
 
 @media (min-width: 768px) {
-
     header nav section a {
         font-size: 4vw;
     }
@@ -88,11 +89,23 @@ main aside div img:hover {
     .tile p {
         font-size: 3vw;
     }
-    
+
 }
 
 
 @media (min-width: 992px) {
+    .content {
+        flex-direction: row;
+    }
+    .tile {
+        width: 18vw;
+
+
+    }
+
+    .tile img {
+        width: 18vw;
+    }
 
     header nav section a {
         font-size: var(--subtitles);
@@ -109,25 +122,28 @@ main aside div img:hover {
     }
 
     .tile p {
-        font-size: 1.6vw;
-    }   
+        font-size: 1.62vw;
+    }
 
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
     .content {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .tile {
-        width: 70vw;
+        width: 20vw;
     }
 
     .tile img {
         height: auto;
-        width: 65vw;
+        width: 20vw;
     }
- 
+
+    .tile p {
+        font-size: 1vw;
+    }
 }
 
 

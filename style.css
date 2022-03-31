@@ -354,5 +354,10 @@ button a {
         color: #ffffff;
         border-radius: 10px;
         cursor: pointer;
+        transition-duration: 300ms;
+        border: none;
+    }
+    button:hover {
+        background-color: var(--primary-variant-color);
     }
 }
