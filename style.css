@@ -385,13 +385,13 @@ button a {
 
 @media (min-width: 992px) {
     main #images-area .left-side img:nth-child(1) {
-        width: auto;
-        height: 25vh;
+        width: 30vw;
+        height: 15.3vw;
     }
 
     main #images-area .left-side img:nth-child(2) {
-        width: auto;
-        height: 25vh;
+        width: 20vw;
+        height: 12.3vw;
     }
 
     main #images-area .right-side img {
