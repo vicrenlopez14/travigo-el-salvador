@@ -58,6 +58,7 @@ article p {
 .imgs {
     display: flex;
     justify-content: center;
+    margin-top: 5vh;
 }
 
 .right-side img {
@@ -158,6 +159,16 @@ article {
 }
 
 @media (min-width: 768px) {
+
+    article p {
+        margin: 0;
+        font-size: var(--body);
+    }
+
+    header nav section a {
+        font-size: 4vw;
+    }
+
     .right-side {
         visibility: hidden;
     }
@@ -185,12 +196,13 @@ article {
         text-align: center;
         justify-content: center;
         width: 80vw;
-        height: 53vh;
+        height: 40vh;
         margin-bottom: 10px;
+        border-radius: 20px;
     }
 
     .departamento h4 {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 }
 
@@ -206,6 +218,10 @@ article {
         margin: 0 20px 0 20px;
     }
 
+    header nav section a {
+        font-size: var(--subtitles);
+        align-self: center;
+    }
 
     body main aside h3 {
         text-align: center;

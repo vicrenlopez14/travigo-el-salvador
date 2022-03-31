@@ -30,10 +30,12 @@ footer div strong {
     /*Footer*/
     footer {
         flex-direction: column;
+        height: 20vh; 
+        margin-top: 10vh;    
     }
 
     footer div a, footer div strong {
-        font-size: 5vw;
+        font-size: 5vw;        
     }
 }
 
@@ -41,6 +43,8 @@ footer div strong {
     /*Footer*/
     footer {
         flex-direction: row;
+        height: 10vh;
+        margin-top: 10vh;
     }
 
     footer div a, footer div strong {

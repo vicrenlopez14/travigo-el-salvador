@@ -86,3 +86,76 @@ article section {
 footer {
     margin-top: 0;
 }
+
+@media (min-width: 768px) {
+
+    a {
+        font-size: 3vw;
+    }
+
+    .links-area button {
+        margin: 5px 0;
+        border: none;
+        color: white;
+        background-color: var(--primary-color);
+        height: 5vh;
+        width: 30vw;
+        font-size: 2.5vw;
+        transition-duration: 300ms;
+        cursor: pointer;
+        margin-right: 380px;
+    }
+    
+    /*Hovers*/
+    .links-area button:nth-child(1):hover {
+        margin-left: 50px;
+    }
+    
+    .links-area button:nth-child(2):hover {
+        margin-left: 40px;
+    }
+    
+    .links-area button:nth-child(3):hover {
+        margin-left: 30px;
+    }
+
+    .text-area p {
+        font-size: 2.5vw;
+    }
+    
+}
+
+@media (min-width: 992px) {
+
+    a {
+        font-size: 1vw;
+    }
+
+    .links-area button {
+        margin: 5px 0;
+        border: none;
+        height: 5vh;
+        width: 30vw;
+        font-size: var(--body);
+        transition-duration: 300ms;
+        cursor: pointer;
+    }
+    
+    /*Hovers*/
+    .links-area button:nth-child(1):hover {
+        margin-left: 50px;
+    }
+    
+    .links-area button:nth-child(2):hover {
+        margin-left: 40px;
+    }
+    
+    .links-area button:nth-child(3):hover {
+        margin-left: 30px;
+    }
+
+    .text-area p {
+        font-size: 1.3vw;
+    }
+    
+}

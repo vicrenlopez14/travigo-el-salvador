@@ -75,6 +75,45 @@ main aside div img:hover {
     cursor: pointer;
 }
 
+@media (min-width: 768px) {
+
+    header nav section a {
+        font-size: 4vw;
+    }
+
+    .tile h3 {
+        font-size: 3.5vw;
+    }
+
+    .tile p {
+        font-size: 3vw;
+    }
+    
+}
+
+
+@media (min-width: 992px) {
+
+    header nav section a {
+        font-size: var(--subtitles);
+        align-self: center;
+    }
+
+    main section h1 {
+        font-size: 1.8vw;
+        margin: 0;
+    }
+
+    .tile h3 {
+        font-size: 1.5vw;
+    }
+
+    .tile p {
+        font-size: 1.6vw;
+    }   
+
+}
+
 @media (max-width: 1200px) {
     .content {
         flex-direction: column;
@@ -86,6 +125,9 @@ main aside div img:hover {
 
     .tile img {
         height: auto;
-        width: 70vw;
+        width: 65vw;
     }
+ 
 }
+
+

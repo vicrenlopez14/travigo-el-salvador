@@ -59,7 +59,8 @@ nav section a:hover {
 /*Mobile*/
 header {
     padding: 20px;
-    height: 45vh;
+    height: 55vh;
+    transition-duration: 500ms;
 }
 
 /* Brading and nav bar*/

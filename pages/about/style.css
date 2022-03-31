@@ -16,6 +16,7 @@
 
 main {
     margin: 5vw;
+    margin-bottom: 20vh;
 }
 
 hr {
@@ -35,4 +36,87 @@ article img {
 article p {
     margin-left: 2vw;
     text-align: justify;
+}
+
+.logo-section img {
+    justify-content: center;
+    width: 40vw;
+    text-align: center;
+    margin: 100px;
+}
+
+article {
+    flex-direction: column;
+}
+
+article img {
+    flex-basis: 10vw;
+    width: 5vw;
+    margin-left: 40vw;
+    margin-right: 40vw;
+    height: 95px;
+    width: 95px;
+    margin-top: 0px;
+}
+
+@media (min-width: 768px) {
+    .logo-section img {
+        justify-content: center;
+        width: 40vw;
+        text-align: center;
+        margin: 100px;
+    }
+
+    article {
+        flex-direction: column;
+    }
+
+    article img {
+        flex-basis: 10vw;
+        width: 5vw;
+        margin-left: 40vw;
+        margin-right: 40vw;
+        height: 95px;
+        width: 95px;
+        margin-top: 0px;
+    }
+
+    article p {
+        margin-left: 2vw;
+        text-align: justify;
+        font-size: 2.7vw;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+
+    .logo-section img {
+        width: 20vw;
+        text-align: center;
+        margin: 0px;
+    }
+
+    article {
+        display: flex;
+        flex-direction: row;
+    }
+
+    article img {
+        flex-basis: 10vw;
+        width: 5vw;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 30px;
+        height: 50px;
+        width: 50px;
+    }
+
+    article p {
+        margin-left: 2vw;
+        text-align: justify;
+        font-size: 1.4vw;
+    }
+
 }
