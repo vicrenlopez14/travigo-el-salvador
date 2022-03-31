@@ -383,7 +383,7 @@ button a {
     }
 }
 
-@media (max-width: 1215px) {
+@media (min-width: 992px) {
     main #images-area .right-side img {
         visibility: hidden;
     }
