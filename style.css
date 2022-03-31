@@ -126,6 +126,12 @@ button a {
     color: white;
 }
 
+@media (min-width: 600px) {
+    header main {
+        height: 600px;
+    }
+}
+
 @media (min-width: 768px) {
     /* Brading and nav bar*/
     #travigo-logo {
@@ -166,20 +172,33 @@ button a {
         height: 30vh;
     }
 
-    main #images-area .right-side img {
+    main #images-area .right-side {
         height: 30vh;
+    }
+
+    main #images-area .right-side img {
+        height: 20vh;
         width: 50vw;
     }
 
     main #images-area .left-side img {
-        height: 15vh;
+        height: 10vh;
         width: 40vw;
     }
 
 }
 
+@media (min-width: 800px) {
+    #images-area img {
+        visibility: hidden;
+    }
+}
 
 @media (min-width: 992px) {
+    #images-area img {
+        visibility: visible;
+    }
+
     /*Header*/
     header nav {
         flex-direction: row;
